@@ -1,0 +1,207 @@
+{
+    "name": "Thia Amastacia",
+    "characterClass": "Bard",
+    "level": 1,
+    "background": "Entertainer",
+    "player": "Sue",
+    "race": "Half-elf",
+    "alignment": "Neutral",
+    "xp": 0,
+    "armorClass": null,
+    "initative": null,
+    "speed": 30,
+    "hitDice": "1d8",
+    "hitPointsMax": null,
+    "hitPointsCurrent": null,
+    "hitPointsTemp": null,
+    "proficiencyBonus": 2,
+    "age": 25,
+    "height": "5'",
+    "weight": "110lbs",
+    "eyes": "green",
+    "skin": "light",
+    "hair": "pink",
+    "backstory": "Thia grew up in a human household. When she reached 16 years old, she found that she had some odd strengths that were more than human, like magic abilities. Her parents finally confessed, she isn't 100% human, and they aren't her true parents. They then handed her a flute, and told her this flute and her were left at their front doorstep when she was a baby. When Thia picked up the flute, she had the urge to play it, so she did. It came naturally to her. This flute was the only link to her real parents, and she wanted to know where they are, why they left her, and perhaps they may help her find her true identity. From 16 to 25, she went to school, and made a living as a traveling musician. Thus began her journey to find her identity and her biological parents.",
+    "personalityTraits": "Nobody stays angry around me as I can defuse tension<br> Loves making up random tunes randomly",
+    "ideals": "I like seeing smiles on people's faces when I perform<br> Art comes from within",
+    "bonds": "My instrument is my most treasured posession",
+    "flaws": "I have trouble keeping my true feelings hidden",
+    "abilities":
+    {
+        "strength": 12,
+        "dexterty": 15,
+        "constitution": 11,
+        "intelligence": 10,
+        "wisdom": 10,
+        "charisma": 14
+    },
+    "savingThrows":
+    {
+        "strengthMisc": 1,
+        "dextertyMisc": 3,
+        "constitutionMisc": 1,
+        "intelligenceMisc": 0,
+        "wisdomMisc": 0,
+        "charismaMisc": 3
+    },
+    "skills":
+    {
+        "acrobaticsMisc": 0,
+        "animalHandlingMisc": 0,
+        "arcanaMisc": 0,
+        "athleticsMisc": 0,
+        "deceptionMisc": 0,
+        "historyMisc": 0,
+        "insightMisc": 0,
+        "intimidationMisc": 0,
+        "investigationMisc": 0,
+        "medicineMisc": 0,
+        "natureMisc": 0,
+        "perceptionMisc": 0,
+        "performanceMisc": 0,
+        "persuasionMisc": 0,
+        "religionMisc": 0,
+        "sleightOfHandMisc": 0,
+        "stealthMisc": 0,
+        "survivalMisc": 0
+    },
+    "otherProficienciesAndLanguages": {
+        "Languages": "Common, Elvish",
+        "Armor": "Light",
+        "Weapon": "Rapier",
+        "Tools": "Flute",
+        "Saving throws": "Constitution, Dexterity, Charisma"
+    },
+    "equipment":
+    {
+        "coins":
+        {
+            "cp": 0,
+            "sp": 0,
+            "ep": 0,
+            "gp": 0,
+            "pp": 0
+        },
+        "items": [
+        {
+            "name": "Flute",
+            "cost": "0",
+            "weight": 1
+        },
+        {
+            "name": "entertainer's pack",
+            "cost": "0",
+            "weight": 1
+        }],
+        "armors": [
+        {
+            "name": "leather armor",
+            "cost": "0",
+            "armorClass": "light",
+            "strength": 2,
+            "stealthDisadvantage": false,
+            "weight": 1
+        }],
+        "weapons": [
+        {
+            "name": "rapier",
+            "cost": "0",
+            "damage": "5",
+            "weight": 1,
+            "properties": ["light"]
+        },
+        {
+            "name": "dagger",
+            "cost": "0",
+            "damage": "2",
+            "weight": 1,
+            "properties": ["light"]
+        }]
+    },
+    "spellcasting":
+    {
+        "spellcastingAbility": "Charisma",
+        "spellSaveDc": null,
+        "slots":
+        {
+            "max": [4, 0, 0, 0, 0, 0, 0, 0, 0],
+            "available": [0, 0, 0, 0, 0, 0, 0, 0, 0]
+        },
+        "spells": [
+        {
+            "level": 0,
+            "name": "Prestidigitation",
+            "castingTime": "1 Action",
+            "range": "10 feet",
+            "componentV": true,
+            "componentS": true,
+            "duration": "up to 1 hour",
+            "details": "This spell is a minor magical trick that novice spellcasters use for practice. You create one of the following magical effects within range: <ul><li>You create an instantaneous, harmless sensory effect, such as a shower of sparks, a puff of wind, faint musical notes, or an odd odor.</li><li>You instantaneously light or snuff out a candle, a torch, or a small campfire. </li><li>You instantaneously clean or soil an object no larger than 1 cubic foot. </li><li>You chill, warm, or flavor up to 1 cubic foot of nonliving material for 1 hour. </li><li>You make a color, a small mark, or a symbol appear on an object or a surface for 1 hour. </li><li>You create a nonmagical trinket or an illusory image that can fit in your hand and that lasts until the end of your next turn.</li></ul>If you cast this spell multiple times, you can have up to three of its non-instantaneous effects active at a time, and you can dismiss such an effect as an action."
+        },
+        {
+            "level": 0,
+            "name": "Vicious Mockery",
+            "castingTime": "1 Action",
+            "range": "60 feet",
+            "componentV": true,
+            "duration": "Instantaneous",
+            "details": "You unleash a string of insults laced with subtle enchantments at a creature you can see within range. If the target can hear you (thought it need not understand you), it must succeed on a Wisdom saving throw or take 1d4 psychic damage and have disadvantage on the next attack roll it makes before the end of its next turn."
+        },
+        {
+            "level": 1,
+            "name": "cure wounds",
+            "castingTime": "1 action",
+            "range": "Touch",
+            "componentV": true,
+            "componentS": true,
+            "duration": "Instantaneous",
+            "details": "A creature you touch regains a number of hit points equal to Id8 + your spellcasting ability modifier. This spell has no effect on undead or constructs. At Higher Levels. When you cast this spell using a spell slot of 2nd levei or higher, the healing increases by Id8 for each slot level above Ist",
+            "prepared": false,
+            "detailsVisible": true
+        },
+        {
+            "level": 1,
+            "name": "identify (ritual)",
+            "castingTime": "1 action",
+            "range": "touch",
+            "componentV": true,
+            "componentS": true,
+            "componentM": true,
+            "materials": "a pearl worth at least 100 gp and an owl feather",
+            "duration": "instantaneous",
+            "details": "You choose one object that you must touch throughout the casting of the spell. If it is a magic item or some other magic-imbued object, you learn its properties and how to use them, whether it requires attunement to use, and how many charges it has, if any. You learn whether any spells are affecting the item and what they are. If the item was created by a spell, you learn which spell created it.<br><br>If you instead touch a creature throughout the casting, you learn what spells, if any, are currently affecting it."
+        },
+        {
+            "level": 1,
+            "name": "thunderwave",
+            "castingTime": "1 action",
+            "range": "self (15 foot cube)",
+            "componentV": true,
+            "componentS": true,
+            "duration": "Instantaneous",
+            "details": "A wave of thunderous force sweeps out from you. Each creature in a 15-foot cube originating from you must make a Constitution saving throw. On a failed save, a creature takes 2d8 thunder damage and is pushed 10 feet away from you. On a sueeessful save, the ereature takes half as mueh damage and isn't pushed. In addition, unseeured objeets that are eompletely within the area of effeet are automatically pushed 10 feet away from you by the spell's effeet, and the spell emits a thunderous boom audible out to 300 feet. At Higher LeveIs. When you east this spell using a spell slot of 2nd leveI or higher, the damage inereases by ld8 for each slot level above 1st"
+        },
+        {
+            "level": 1,
+            "name": "dissonant whispers",
+            "castingTime": "1 action",
+            "range": "60 feet",
+            "componentV": true,
+            "componentS": false,
+            "componentM": false,
+            "duration": "instantaneous",
+            "details": "You whisper a discordant melody that only one creature of your choice within range can hear, wracking it with terrible pain.<br><br>The target must make a Wisdom saving throw. On a failed save, it takes 3d6 psychic damage and must immediately use its reaction , if available, to move as far as its speed allows away from you. The creature doesn’t move into obviously dangerous ground, such as a fire or a pit. On a successful save, the target takes half as much damage and doesn’t have to move away. A deafened creature automatically succeeds on the save. <br><br>When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st"
+        },
+        {
+            "level": 1,
+            "name": "Sleep",
+            "castingTime": "1 action",
+            "range": "90 feet",
+            "componentV": true,
+            "componentS": true,
+            "componentM": true,
+            "duration": "1 minute",
+            "details": "This spell sends creatures into a magical slumber. Roll 5d8, the total is how many hit points of creatures this spell can affect. Creatures within 20 feet of a point you choose within range are affected in ascending order of their current hit points (ignoring unconscious creatures).<br>Starting with the creature that has the lowest current hit points, each creature affected by this spell falls unconscious until the spell ends, the sleeper takes damage, or someone uses an action to shake or slap the sleeper awake. Subtract each creature’s hit points from the total before moving on to the creature with the next lowest hit points. A creature’s hit points must be equal to or less than the remaining total for that creature to be affected.<br>Undead and creatures immune to being charmed aren’t affected by this spell.<br><br>At higher level<br>When you cast this spell using a spell slot of 2nd level or higher, roll an additional 2d8 for each slot level above 1st."
+        }]
+    }
+}
